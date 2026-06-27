@@ -105,6 +105,8 @@ The repository ignores heavy/generated files such as:
 - `node_modules/`
 - `dist/`
 - `dist-exe/`
+- `win-unpacked/`
+- Windows installers and binaries (`*.exe`, `*.blockmap`, `*.asar`, `*.yml`)
 - local `.env` files
 - local SQLite database files
 - logs and cache files
